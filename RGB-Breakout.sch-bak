@@ -1,0 +1,144 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 6195CFBE
+P 2400 4700
+F 0 "#PWR0101" H 2400 4450 50  0001 C CNN
+F 1 "GND" H 2405 4527 50  0000 C CNN
+F 2 "" H 2400 4700 50  0001 C CNN
+F 3 "" H 2400 4700 50  0001 C CNN
+	1    2400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6196472A
+P 2800 4700
+F 0 "#PWR0102" H 2800 4450 50  0001 C CNN
+F 1 "GND" H 2805 4527 50  0000 C CNN
+F 2 "" H 2800 4700 50  0001 C CNN
+F 3 "" H 2800 4700 50  0001 C CNN
+	1    2800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4700 2400 4600
+Wire Wire Line
+	2400 4600 2600 4600
+Wire Wire Line
+	2800 4600 2800 4700
+Wire Wire Line
+	2600 4250 2600 4600
+Connection ~ 2600 4600
+Wire Wire Line
+	2600 4600 2800 4600
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J1
+U 1 1 619667D3
+P 3850 3750
+F 0 "J1" H 3900 4267 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 3900 4176 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 3850 3750 50  0001 C CNN
+F 3 "~" H 3850 3750 50  0001 C CNN
+	1    3850 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3550 4150 3550
+Wire Wire Line
+	4250 3550 4250 3750
+Wire Wire Line
+	4250 4450 4100 4450
+Wire Wire Line
+	4100 4450 4100 4550
+$Comp
+L power:GND #PWR0103
+U 1 1 6196970E
+P 4100 4550
+F 0 "#PWR0103" H 4100 4300 50  0001 C CNN
+F 1 "GND" H 4105 4377 50  0000 C CNN
+F 2 "" H 4100 4550 50  0001 C CNN
+F 3 "" H 4100 4550 50  0001 C CNN
+	1    4100 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3750 4250 3750
+Connection ~ 4250 3750
+Wire Wire Line
+	4250 3750 4250 4150
+Wire Wire Line
+	4150 4150 4250 4150
+Connection ~ 4250 4150
+Wire Wire Line
+	4250 4150 4250 4450
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 6196AF55
+P 3250 3750
+F 0 "J?" H 3330 3742 50  0000 L CNN
+F 1 "Conn_01x08" H 3330 3651 50  0000 L CNN
+F 2 "" H 3250 3750 50  0001 C CNN
+F 3 "~" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 6196C7DE
+P 4650 3750
+F 0 "J?" H 4730 3742 50  0000 L CNN
+F 1 "Conn_01x08" H 4730 3651 50  0000 L CNN
+F 2 "" H 4650 3750 50  0001 C CNN
+F 3 "~" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3450 4450 3450
+Wire Wire Line
+	4250 3550 4450 3550
+Connection ~ 4250 3550
+Wire Wire Line
+	4150 3650 4450 3650
+Wire Wire Line
+	4250 3750 4450 3750
+Wire Wire Line
+	4150 3850 4450 3850
+Wire Wire Line
+	4150 3950 4450 3950
+Wire Wire Line
+	4150 4050 4450 4050
+Wire Wire Line
+	4250 4150 4450 4150
+Wire Wire Line
+	3650 3450 3050 3450
+Wire Wire Line
+	3650 3550 3050 3550
+Wire Wire Line
+	3650 3650 3050 3650
+Wire Wire Line
+	3650 3750 3050 3750
+Wire Wire Line
+	3650 3850 3050 3850
+Wire Wire Line
+	3650 3950 3050 3950
+Wire Wire Line
+	3650 4050 3050 4050
+Wire Wire Line
+	3650 4150 3050 4150
+$EndSCHEMATC
